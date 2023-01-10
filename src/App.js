@@ -1,11 +1,16 @@
 import styles from './App.module.css';
 import Main from "./pages/Main";
+import Header from "./common/Header"
+import { Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className={styles.app}>
-      <Main></Main>
-    </div>
+    <>
+      <Header></Header>
+      <div className={styles.app}>
+        <Main></Main>
+      </div>
+    </>
   );
 }
 

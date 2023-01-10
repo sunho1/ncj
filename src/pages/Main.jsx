@@ -4,7 +4,7 @@ import styles from "./Main.module.css"
 function MainPage(){
     return(
         <div className={styles.main}>
-            hihihihi
+            hihihihiasdf
         </div>
     )
     

@@ -1,6 +1,6 @@
 import styles from './App.module.css';
 import Main from "./pages/Main";
-import Header from "./common/Header"
+import Header from "./common/header/Header"
 import { Route } from 'react-router-dom'
 
 function App() {

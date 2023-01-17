@@ -12,9 +12,9 @@ function Header(){
         <header className={styles.header}>
             <Logo></Logo>
             <div className={styles.buttonBox}>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
+                <Button name="로그인"></Button>
+                <Button name="개인성적"></Button>
+                <Button name="팀성적"></Button>
             </div>
         </header>
     )

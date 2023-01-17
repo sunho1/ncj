@@ -1,10 +1,10 @@
 import React from "react";
 import styles from './Button.module.css'
 
-function Button(){
+function Button(props){
     return(
         <button className={styles.myButton}>
-            히히히히
+            {props.name}
         </button>
     )
 }

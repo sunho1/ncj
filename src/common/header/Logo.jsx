@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Logo.module.css"
-function Logo(){
+function Logo(props){
     return(
-        <div className={styles.logoBox}>
+        <div className={styles.logoBox} onClick={()=>props.changePage()}>
             NCJ
         </div>
     )

@@ -1,8 +1,11 @@
 import React, { useState,useEffect } from "react";
+import { useRecoilState  } from "recoil";
+import { modalOpen, modalType } from "../../atoms";
 import styles from "./MainHeader.module.css"
 
 function MainHeader(){
-
+    const [mOpen, setMOpen] = useRecoilState(modalOpen)
+    const [mType, setMType] = useRecoilState(modalType)
     const [year , setYear] = useState(0);
     const [quarter, setQuarter] = useState(1);
 
@@ -13,16 +16,12 @@ function MainHeader(){
 
     return(
         <div className={styles.mainHeader}>
-            {year}년도  {quarter}분기
-
-            <div className={styles.selectList}>
-                <select id="year">
-                    <option value="2023">2023</option>
-                </select>
-                <select id="quarter">
-                    <option value="1">1분기</option>
-                </select>
-            </div>
+            {year}년도  {quarter}분기 {mType}
+            <div className={styles.changeBtn} 
+                onClick={()=>{
+                    setMOpen(true)
+                    setMType(1)
+                }}>연도 바꾸기</div>
         </div>
     )
 }

@@ -2,26 +2,16 @@
     width: 100vw;
     height: 10vh;
     background-color: bisque;
-    
+    text-align: center;
+    font-size: 7vh;
+    font-weight: bolder;
 }
 
-.selectList{
+.changeBtn{
     position: relative;
-    width: 40%;
-    height: 100%;
-    left: 80%;
-    display: flex;
+    left: 75%;
+    width: 15vw;
+    height: 8vh;
+    font-size: 2vh;
+    background-color: azure;
 }
-
-select {
-    width: 20%;
-    height: 4vh; 
-    padding: .8em .5em; 
-    border: 1px solid #999;
-    font-family: inherit;  
-    /* background: url('arrow.jpg') no-repeat 95% 50%;  */
-    border-radius: 0px; 
-    -webkit-appearance: none; 
-    -moz-appearance: none;
-    appearance: none;
-    }

@@ -1,0 +1,64 @@
+.seasonBox{
+    width: 50vw;
+    height: 50vh;
+
+    position: relative;
+    left: 25vw;
+    top: 25vh;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nameLine{
+    width: 100%;
+    height: 15%;
+    padding:2% 0;
+    font-size: 5vh;
+    font-weight: 800;
+    text-align: center;
+}
+
+.dateBoxList{
+    width:80%;
+    height: 50%;
+    /* left: 15%; */
+    padding:0px 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select{
+    height: 30%;
+    width: 30%;
+    text-align: right;
+    font-size: 130%;
+}
+
+.btnList{
+    display: flex;
+    padding: 0px 10%;
+    justify-content: space-evenly;
+}
+
+.btn{
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: #77af9c;
+    color: #d7fff1;
+}
+
+.btn:hover{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}

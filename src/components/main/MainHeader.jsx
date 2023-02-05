@@ -16,7 +16,7 @@ function MainHeader(){
 
     return(
         <div className={styles.mainHeader}>
-            {year}년도  {quarter}분기 {mType}
+            {year}년도  {quarter}분기
             <div className={styles.changeBtn} 
                 onClick={()=>{
                     setMOpen(true)

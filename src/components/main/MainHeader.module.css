@@ -9,9 +9,14 @@
 
 .changeBtn{
     position: relative;
+    top:-80%;
     left: 75%;
     width: 15vw;
     height: 8vh;
     font-size: 2vh;
     background-color: azure;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    line-height: 100%;
 }

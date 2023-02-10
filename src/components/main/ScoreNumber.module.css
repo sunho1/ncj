@@ -1,0 +1,22 @@
+.scores{
+    width: 30%;
+    height: 100%;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 280%;
+    background-color: white;
+}
+
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.blue{
+    color: blue;
+}

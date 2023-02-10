@@ -1,0 +1,26 @@
+[
+    {
+        "date":"2023-02-04",
+        "first_team":"R",
+        "second_team":"B",
+        "first_score":44,
+        "second_score":69,
+        "win":"B"
+    },
+    {
+        "date":"2023-02-04",
+        "first_team":"B",
+        "second_team":"Y",
+        "first_score":59,
+        "second_score":53,
+        "win":"B"
+    },
+    {
+        "date":"2023-02-04",
+        "first_team":"R",
+        "second_team":"Y",
+        "first_score":61,
+        "second_score":59,
+        "win":"R"
+    }
+]

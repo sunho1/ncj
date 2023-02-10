@@ -1,0 +1,15 @@
+.score{
+    margin-left: 15%;
+    height: 70%;
+    width: 70%;
+    background-color: blueviolet;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.vs{
+    width:15%;
+    height: 70%;
+    text-align: center;
+}

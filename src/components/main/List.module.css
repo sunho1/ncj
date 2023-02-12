@@ -1,7 +1,8 @@
 .naming{
     width: 30%;
     height: 100%;
-    background-color: rgb(172, 172, 246);
+    /* background-color: rgb(172, 172, 246); */
+    border-left: 1px solid black;
 }
 
 

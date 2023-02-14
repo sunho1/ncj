@@ -8,7 +8,9 @@ function Score(props){
         <div className={styles.scoreBox}>
             <div className={styles.scoreName}>
                 <TextBox data={props.data.first_team}></TextBox>
-                vs
+                <div className={styles.vs}>
+                    vs
+                </div>
                 <TextBox data={props.data.second_team}></TextBox>
             </div>
             <ScoreBox data={props.data}></ScoreBox>

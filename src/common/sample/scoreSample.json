@@ -17,10 +17,35 @@
     },
     {
         "date":"2023-02-04",
+        "first_team":"Y",
+        "second_team":"R",
+        "first_score":59,
+        "second_score":61,
+        "win":"R"
+    },
+    {
+        "date":"2023-02-11",
+        "first_team":"R",
+        "second_team":"B",
+        "first_score":46,
+        "second_score":50,
+        "win":"B"
+    },
+    {
+        "date":"2023-02-11",
+        "first_team":"B",
+        "second_team":"Y",
+        "first_score":54,
+        "second_score":46,
+        "win":"B"
+    },
+    {
+        "date":"2023-02-11",
         "first_team":"R",
         "second_team":"Y",
-        "first_score":61,
-        "second_score":59,
+        "first_score":62,
+        "second_score":55,
         "win":"R"
     }
+    
 ]

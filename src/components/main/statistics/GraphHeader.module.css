@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.date{
+    font-size: 150%;
+    text-align: center;
+}
+
+.tab{
+    height: 100%;
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    /* padding: 100% 0; */
+}
+
+.unselected:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.selected{
+    background-color: gray;
+    border: none;
+}
+
+.unselected{
+    background-color: white;
+}

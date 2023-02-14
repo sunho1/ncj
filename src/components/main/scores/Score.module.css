@@ -5,14 +5,12 @@
     margin-right: 5%;
     margin-top:1%;
     margin-bottom: 1%;
-    background-color: pink;
 }
 
 .scoreName{
     width: 30%;
     height: 30%;
     margin-left: 35%;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-around;
 }

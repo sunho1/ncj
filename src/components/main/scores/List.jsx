@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 import styles from "./List.module.css";
 import Score from "./Score";
+import scores from "../../../common/sample/scoreSample.json"
+import {useRecoilState} from "recoil";
+import {scoreList} from "../../../atoms"
 
-import scores from "../../common/sample/scoreSample.json"
 
 function List(){
 
-    
+    const [list, setList]=useRecoilState(scoreList)
 
     return(
         <div className={styles.naming}>
-            {scores.map((a,idx)=>{
+            {list.map((a,idx)=>{
                 return(
                     <>
                     <div className={styles.myDate}>
@@ -18,11 +20,12 @@ function List(){
                     </div>
                     
                     <Score data={a}></Score>
-                    
+                    {idx%3==2 && <hr/>}
                     </>
                     
                 )
             })}
+            <hr />
         </div>
     )
 }

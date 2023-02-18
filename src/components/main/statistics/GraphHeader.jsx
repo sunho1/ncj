@@ -22,7 +22,7 @@ function GraphHeader(){
             <div className={[styles.tab, selectTab==2?styles.selected:styles.unselected].join(" ")}
                 onClick={()=>changeSelectTab(2)}
             >
-                테스트2
+                그래프
             </div>
             <div className={[styles.tab, selectTab==3?styles.selected:styles.unselected].join(" ")}
                 onClick={()=>changeSelectTab(3)}

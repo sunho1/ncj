@@ -1,5 +1,6 @@
 import { atom } from "recoil";
 
+//팀 데이터 json파일 저장
 export const scoreList=atom({
     key:"scoreList",
     default:[],
@@ -57,4 +58,11 @@ export const bluePoint=atom({
 export const yellowPoint=atom({
     key:"yellowPoint",
     default:0,
+})
+
+//점진적 스코어 상승곡선
+//name : 날짜 , red, blue, yellow
+export const scorePlusList=atom({
+    key:"scorePlusList",
+    default:{}
 })
